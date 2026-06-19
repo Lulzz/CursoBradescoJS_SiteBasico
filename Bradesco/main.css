@@ -1,0 +1,49 @@
+
+:root{
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+}
+.light-theme{
+    color: var(--green);
+    background-color: var(--black);
+    Button{
+        background-color: var(--white);
+    }  
+
+}
+.dark-theme{
+    color: var(--black);
+    background-color: var(--green);
+    Button{
+        background-color: var(--white);
+    }
+}
+
+body{
+    background: var(--bg);
+    color: var(--frontColor);
+    font-family: monospace
+}
+ul{
+    list-style: square;
+}   
+.list{
+    list-style: circle;
+}
+
+.bnt{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    border: none;   
+
+    background-color: var(--FontColor);
+    color: var(--fontColor);
+
+}
+.bnt:focus{ outline: none; }
+
